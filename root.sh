@@ -15,8 +15,8 @@ dpkg -i 'Custom Packages/rofi_1.7.0-1_amd64.deb'
 apt update
 
 # Add base packages
-apt install unzip picom bspwm polybar sddm rofi kitty thunar flameshot neofetch sxhkd git lxpolkit lxappearance xorg -y
-apt install papirus-icon-theme lxappearance fonts-noto-color-emoji fonts-firacode fonts-font-awesome libqt5svg5 qml-module-qtquick-controls -y
+apt install unzip picom lxqt bspwm i3 polybar sddm rofi kitty thunar flameshot neofetch sxhkd git lxpolkit lxappearance xorg qterminal xfce4-terminal tilix -y
+apt install papirus-icon-theme arc-icon-theme fonts-noto-color-emoji fonts-firacode fonts-font-awesome libqt5svg5 qml-module-qtquick-controls -y
 
 # Download Nordic Theme
 cd /usr/share/themes/
